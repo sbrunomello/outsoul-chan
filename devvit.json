@@ -1,0 +1,163 @@
+{
+  "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
+  "name": "outsoul-chan",
+  "marketingAssets": {
+    "icon": "assets/outsoul-chan.png"
+  },
+  "post": {
+    "dir": "dist/client",
+    "entrypoints": {
+      "default": {
+        "inline": true,
+        "entry": "splash.html"
+      },
+      "game": {
+        "entry": "game.html"
+      }
+    }
+  },
+  "server": {
+    "dir": "dist/server",
+    "entry": "index.cjs"
+  },
+  "permissions": {
+    "redis": true,
+    "reddit": true,
+    "media": true,
+    "http": {
+      "enable": true,
+      "domains": [
+        "generativelanguage.googleapis.com",
+        "i.redd.it",
+        "preview.redd.it",
+        "external-preview.redd.it",
+        "i.redditmedia.com",
+        "preview.redditmedia.com"
+      ]
+    }
+  },
+  "settings": {
+    "global": {
+      "geminiApiKey": {
+        "type": "string",
+        "label": "Gemini API key",
+        "isSecret": true
+      }
+    },
+    "subreddit": {
+      "mode": {
+        "type": "select",
+        "label": "Interaction mode",
+        "options": [
+          {
+            "label": "Off",
+            "value": "OFF"
+          },
+          {
+            "label": "Invocations only",
+            "value": "INVOCATION_ONLY"
+          },
+          {
+            "label": "Semi autonomous",
+            "value": "SEMI_AUTONOMOUS"
+          }
+        ],
+        "defaultValue": "INVOCATION_ONLY"
+      },
+      "enabled": {
+        "type": "boolean",
+        "label": "Enable Outsoul replies",
+        "defaultValue": true
+      },
+      "directInvocations": {
+        "type": "boolean",
+        "label": "Enable !outsoul",
+        "defaultValue": true
+      },
+      "spontaneousReplies": {
+        "type": "boolean",
+        "label": "Enable spontaneous replies",
+        "defaultValue": false
+      },
+      "maxSpontaneousPerDay": {
+        "type": "number",
+        "label": "Max spontaneous replies per day",
+        "defaultValue": 2
+      },
+      "maxDirectPerUserPerDay": {
+        "type": "number",
+        "label": "Max direct replies per user per day",
+        "defaultValue": 5
+      },
+      "userCooldownMinutes": {
+        "type": "number",
+        "label": "User cooldown in minutes",
+        "defaultValue": 20
+      },
+      "reactionImages": {
+        "type": "boolean",
+        "label": "Enable reaction images",
+        "defaultValue": true
+      },
+      "imageFrequency": {
+        "type": "number",
+        "label": "Image chance percent",
+        "defaultValue": 35
+      },
+      "model": {
+        "type": "string",
+        "label": "Gemini model",
+        "defaultValue": "gemini-3.8-flash"
+      },
+      "enableLlm": {
+        "type": "boolean",
+        "label": "Enable Gemini",
+        "defaultValue": true
+      },
+      "fallbackResponses": {
+        "type": "boolean",
+        "label": "Enable local fallback",
+        "defaultValue": true
+      },
+      "dryRun": {
+        "type": "boolean",
+        "label": "Dry run (log only)",
+        "defaultValue": true
+      },
+      "allowedSubreddit": {
+        "type": "string",
+        "label": "Authorized playtest subreddit (without r/)",
+        "defaultValue": ""
+      }
+    }
+  },
+  "menu": {
+    "items": [
+      {
+        "label": "Open Outsoul-chan setup",
+        "description": "Create the setup post for reaction media provisioning",
+        "location": "subreddit",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/post-create"
+      }
+    ]
+  },
+  "triggers": {
+    "onCommentCreate": "/internal/triggers/on-comment-create",
+    "onPostCreate": "/internal/triggers/on-post-create"
+  },
+  "scheduler": {
+    "tasks": {
+      "outsoul-deferred-direct-reply": {
+        "endpoint": "/internal/triggers/scheduler/deferred-reply"
+      }
+    }
+  },
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "dev": {
+    "subreddit": "outsoul_chan_dev"
+  }
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anger_01",
+    "emotion": "anger",
+    "style": "dramatic_manga",
+    "intensity": 4,
+    "tags": [
+      "anger",
+      "exasperated",
+      "comedy"
+    ],
+    "file": "anger_01.png",
+    "sha256": "d30a380b962d7e847ac37a53b0165bb32678ec150e473015a3f24b2b0ef4d1fb",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "anger_02",
+    "emotion": "anger",
+    "style": "dramatic_manga",
+    "intensity": 2,
+    "tags": [
+      "anger",
+      "exasperated",
+      "comedy"
+    ],
+    "file": "anger_02.png",
+    "sha256": "d93023422fbb84cbd178c2b4faef0b64359ff27153aaf6e4e26daf3c732a8202",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "anger_03",
+    "emotion": "anger",
+    "style": "dramatic_manga",
+    "intensity": 3,
+    "tags": [
+      "anger",
+      "exasperated",
+      "comedy"
+    ],
+    "file": "anger_03.png",
+    "sha256": "f0815239f4f6d0d8053ac776575e8211d2ced2e81930352fb15b72a65a913fe6",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "anger_04",
+    "emotion": "anger",
+    "style": "dramatic_manga",
+    "intensity": 4,
+    "tags": [
+      "anger",
+      "exasperated",
+      "comedy"
+    ],
+    "file": "anger_04.png",
+    "sha256": "e6a3e7b8b98f138e1ce4b99c02a405036bfc027a91b51f34047d4f9f45c14f2e",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "bored_judgment_01",
+    "emotion": "bored_judgment",
+    "style": "cinematic_anime",
+    "intensity": 4,
+    "tags": [
+      "bored",
+      "judgment",
+      "side-eye"
+    ],
+    "file": "bored_judgment_01.png",
+    "sha256": "2d5e6aa990700e2327f9e0c65521d06e52b1edfc83847a620df137eebfaa3242",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "bored_judgment_02",
+    "emotion": "bored_judgment",
+    "style": "cinematic_anime",
+    "intensity": 2,
+    "tags": [
+      "bored",
+      "judgment",
+      "side-eye"
+    ],
+    "file": "bored_judgment_02.png",
+    "sha256": "c72bc274f1e41b872ae069b45ef6d773495938c266f977dfa9966a90fa567b6c",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "bored_judgment_03",
+    "emotion": "bored_judgment",
+    "style": "cinematic_anime",
+    "intensity": 3,
+    "tags": [
+      "bored",
+      "judgment",
+      "side-eye"
+    ],
+    "file": "bored_judgment_03.png",
+    "sha256": "74bdddb969fddd041f0134dac277de08c111579940a94c9448ad4aa845d5b224",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "bored_judgment_04",
+    "emotion": "bored_judgment",
+    "style": "cinematic_anime",
+    "intensity": 4,
+    "tags": [
+      "bored",
+      "judgment",
+      "side-eye"
+    ],
+    "file": "bored_judgment_04.png",
+    "sha256": "b90b8fe8f4ad4a7623ebe21192434c31e76694e8f6da3d210260a30259f66cf1",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "confidence_sigma_01",
+    "emotion": "confidence_sigma",
+    "style": "dramatic_manga",
+    "intensity": 4,
+    "tags": [
+      "confidence",
+      "sigma",
+      "parody"
+    ],
+    "file": "confidence_sigma_01.png",
+    "sha256": "0d21eadff5e35a3489047c92d7a7a8d5f8acbbb968bf6b1ceaac871eb878689c",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "confidence_sigma_02",
+    "emotion": "confidence_sigma",
+    "style": "dramatic_manga",
+    "intensity": 2,
+    "tags": [
+      "confidence",
+      "sigma",
+      "parody"
+    ],
+    "file": "confidence_sigma_02.png",
+    "sha256": "71f90ffe6d4c7283189bfb3b064adf45a817d4c36a370f1af2dc0b2b53762418",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "confidence_sigma_03",
+    "emotion": "confidence_sigma",
+    "style": "dramatic_manga",
+    "intensity": 3,
+    "tags": [
+      "confidence",
+      "sigma",
+      "parody"
+    ],
+    "file": "confidence_sigma_03.png",
+    "sha256": "571976a98623434dbda37f47d1e167dbc7b2286359820dc5366fc33b7e617895",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "confidence_sigma_04",
+    "emotion": "confidence_sigma",
+    "style": "dramatic_manga",
+    "intensity": 4,
+    "tags": [
+      "confidence",
+      "sigma",
+      "parody"
+    ],
+    "file": "confidence_sigma_04.png",
+    "sha256": "5a405f5d1845d8143544fad83717e706fcc04beedc3f284fe240b7a283bbdd28",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "dramatic_sadness_01",
+    "emotion": "dramatic_sadness",
+    "style": "dramatic_manga",
+    "intensity": 4,
+    "tags": [
+      "crying",
+      "sad",
+      "dramatic"
+    ],
+    "file": "dramatic_sadness_01.png",
+    "sha256": "944ad54dc093064ef2594b2a9d29af40598ca82973397118303e54f50e542189",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "dramatic_sadness_02",
+    "emotion": "dramatic_sadness",
+    "style": "dramatic_manga",
+    "intensity": 2,
+    "tags": [
+      "crying",
+      "sad",
+      "dramatic"
+    ],
+    "file": "dramatic_sadness_02.png",
+    "sha256": "6b5dc08e0dadef5f1ed50df8c8e82fa37ecfbade4c08c405249493fb94d2cbc0",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "dramatic_sadness_03",
+    "emotion": "dramatic_sadness",
+    "style": "dramatic_manga",
+    "intensity": 3,
+    "tags": [
+      "crying",
+      "sad",
+      "dramatic"
+    ],
+    "file": "dramatic_sadness_03.png",
+    "sha256": "bcbf1e7a42b17aa0dd0432e07e7b71c5c1618cc0101bc37c78a24deee0031f26",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "dramatic_sadness_04",
+    "emotion": "dramatic_sadness",
+    "style": "dramatic_manga",
+    "intensity": 4,
+    "tags": [
+      "crying",
+      "sad",
+      "dramatic"
+    ],
+    "file": "dramatic_sadness_04.png",
+    "sha256": "7340df8e32e8aaf3ef3b3efd2143589cd71b1d433a4c9872e44f743c2fa75b86",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "embarrassment_01",
+    "emotion": "embarrassment",
+    "style": "cinematic_anime",
+    "intensity": 4,
+    "tags": [
+      "bashful",
+      "blush",
+      "awkward"
+    ],
+    "file": "embarrassment_01.png",
+    "sha256": "e77c25c1650cd3580fce75c2c56835255b88c8383a0de68bb48130437879047b",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "embarrassment_02",
+    "emotion": "embarrassment",
+    "style": "cinematic_anime",
+    "intensity": 2,
+    "tags": [
+      "bashful",
+      "blush",
+      "awkward"
+    ],
+    "file": "embarrassment_02.png",
+    "sha256": "212b4cfd944e4e379c46db827e907c0037add70e913c8c93d12c7cdc18c12bc2",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "embarrassment_03",
+    "emotion": "embarrassment",
+    "style": "cinematic_anime",
+    "intensity": 3,
+    "tags": [
+      "bashful",
+      "blush",
+      "awkward"
+    ],
+    "file": "embarrassment_03.png",
+    "sha256": "5a208d11d2c9649553ada3d4891f5ec1812eb0e28ec2d60ee5d9d5e644ca05b5",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "embarrassment_04",
+    "emotion": "embarrassment",
+    "style": "cinematic_anime",
+    "intensity": 4,
+    "tags": [
+      "bashful",
+      "blush",
+      "awkward"
+    ],
+    "file": "embarrassment_04.png",
+    "sha256": "f30c490f844308730ebea0cb17b8105a3f8a80eaac839d9b39214431b740be53",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "fear_shock_01",
+    "emotion": "fear_shock",
+    "style": "comedy",
+    "intensity": 4,
+    "tags": [
+      "shock",
+      "surprise",
+      "unexpected"
+    ],
+    "file": "fear_shock_01.png",
+    "sha256": "3a4dc1378c6a76015e9dcbe9e5427958dcab2831cd176aa65e303b762ad12888",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "fear_shock_02",
+    "emotion": "fear_shock",
+    "style": "comedy",
+    "intensity": 2,
+    "tags": [
+      "shock",
+      "surprise",
+      "unexpected"
+    ],
+    "file": "fear_shock_02.png",
+    "sha256": "dfff6f4cfe61e49240eb16410bdf08deafcab745788785864077aa1cc26ca331",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "fear_shock_03",
+    "emotion": "fear_shock",
+    "style": "comedy",
+    "intensity": 3,
+    "tags": [
+      "shock",
+      "surprise",
+      "unexpected"
+    ],
+    "file": "fear_shock_03.png",
+    "sha256": "4d8a8bcac5cfd615ced90148f3678e2db37b54176225bc9ddec905819fed99a8",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "fear_shock_04",
+    "emotion": "fear_shock",
+    "style": "comedy",
+    "intensity": 4,
+    "tags": [
+      "shock",
+      "surprise",
+      "unexpected"
+    ],
+    "file": "fear_shock_04.png",
+    "sha256": "1f67c7dd487f4dff04d0b7843b08ace33264f028c677d3b6663b6bef9039bc26",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "joy_01",
+    "emotion": "joy",
+    "style": "chibi",
+    "intensity": 4,
+    "tags": [
+      "cute",
+      "happy",
+      "delight"
+    ],
+    "file": "joy_01.png",
+    "sha256": "cff3c4e37a248f685fd665d43374e180c238899d44dda5f7a25a5c58d243a035",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "joy_02",
+    "emotion": "joy",
+    "style": "chibi",
+    "intensity": 2,
+    "tags": [
+      "cute",
+      "happy",
+      "delight"
+    ],
+    "file": "joy_02.png",
+    "sha256": "a03a4438fecb1bff04cd3fd966f201a3462272283cc68b44b98f7b199cbd9e2d",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "joy_03",
+    "emotion": "joy",
+    "style": "chibi",
+    "intensity": 3,
+    "tags": [
+      "cute",
+      "happy",
+      "delight"
+    ],
+    "file": "joy_03.png",
+    "sha256": "3bba007d2757e7a7469b85082bf472aee4a14a97bda9df5a70f6b18fdf943ce1",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "joy_04",
+    "emotion": "joy",
+    "style": "chibi",
+    "intensity": 4,
+    "tags": [
+      "cute",
+      "happy",
+      "delight"
+    ],
+    "file": "joy_04.png",
+    "sha256": "8dd9dd39cb6c2741740a03b259696f9b60d7f40695974fa27c13622ab395d22c",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "mockery_laughter_01",
+    "emotion": "mockery_laughter",
+    "style": "meme",
+    "intensity": 4,
+    "tags": [
+      "laugh",
+      "smug",
+      "teasing"
+    ],
+    "file": "mockery_laughter_01.png",
+    "sha256": "3a5dc771e5dc4bb515f5bb4edefbb43f8357b27d16ebdf334f94e6dcb7581d2d",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "mockery_laughter_02",
+    "emotion": "mockery_laughter",
+    "style": "meme",
+    "intensity": 2,
+    "tags": [
+      "laugh",
+      "smug",
+      "teasing"
+    ],
+    "file": "mockery_laughter_02.png",
+    "sha256": "580a7749831c9f41c23f98ffed34ce2e413ec526cbfc4ef6cea2bcda5d8cf240",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "mockery_laughter_03",
+    "emotion": "mockery_laughter",
+    "style": "meme",
+    "intensity": 3,
+    "tags": [
+      "laugh",
+      "smug",
+      "teasing"
+    ],
+    "file": "mockery_laughter_03.png",
+    "sha256": "03146d5a8c500fa97db5f6a8496d75b0d3cc9a9a9a35a3b71aa568ccd8390cd8",
+    "approved": true,
+    "enabled": true
+  },
+  {
+    "id": "mockery_laughter_04",
+    "emotion": "mockery_laughter",
+    "style": "meme",
+    "intensity": 4,
+    "tags": [
+      "laugh",
+      "smug",
+      "teasing"
+    ],
+    "file": "mockery_laughter_04.png",
+    "sha256": "edac0539f9e263ac1aa654a8a3e28285fecf0ab768178f73b3eeab5b53859d45",
+    "approved": true,
+    "enabled": true
+  }
+]
